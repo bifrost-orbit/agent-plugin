@@ -1,0 +1,16 @@
+{
+  "name": "bifrost-orbit",
+  "description": "Plugins for Bifröst Orbit and its satellites.",
+  "owner": {
+    "name": "Bifröst Orbit",
+    "url": "https://bifrostorbit.com"
+  },
+  "plugins": [
+    {
+      "name": "cms-orbit",
+      "source": "./",
+      "description": "Agent skills for CMS Orbit, the headless CMS from Bifröst Orbit: content modelling with the CLI, websites with the SDK, and drafting content through the MCP server.",
+      "category": "development"
+    }
+  ]
+}

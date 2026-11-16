@@ -1,0 +1,18 @@
+{
+  "name": "cms-orbit",
+  "displayName": "CMS Orbit",
+  "description": "Agent skills for CMS Orbit, the headless CMS from Bifröst Orbit: content modelling with the CLI, websites with the SDK, and drafting content through the MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bifröst Orbit",
+    "url": "https://bifrostorbit.com"
+  },
+  "homepage": "https://bifrostorbit.com/developers/agent-skills/",
+  "repository": "https://github.com/bifrost-orbit/agent-plugin",
+  "license": "MIT",
+  "keywords": ["cms-orbit", "bifrost-orbit", "headless-cms", "mcp", "content-modelling"],
+  "documentationUrl": "https://docs.bifrostorbit.com/cms/developers/agent-skills/",
+  "supportUrl": "https://github.com/bifrost-orbit/agent-plugin/issues",
+  "privacyPolicyUrl": "https://bifrostorbit.com/legal/privacy/",
+  "termsOfServiceUrl": "https://bifrostorbit.com/legal/terms/"
+}

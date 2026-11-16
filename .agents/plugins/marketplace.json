@@ -1,0 +1,20 @@
+{
+  "name": "bifrost-orbit",
+  "interface": {
+    "displayName": "Bifröst Orbit"
+  },
+  "plugins": [
+    {
+      "name": "cms-orbit",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

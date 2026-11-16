@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cms-orbit",
+  "version": "1.0.0",
+  "description": "Agent skills for CMS Orbit, the headless CMS from Bifröst Orbit: content modelling with the CLI, websites with the SDK, and drafting content through the MCP server.",
+  "author": {
+    "name": "Bifröst Orbit",
+    "url": "https://bifrostorbit.com"
+  },
+  "homepage": "https://bifrostorbit.com/developers/agent-skills/",
+  "repository": "https://github.com/bifrost-orbit/agent-plugin",
+  "license": "MIT",
+  "keywords": ["cms-orbit", "bifrost-orbit", "headless-cms", "mcp", "content-modelling"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "CMS Orbit",
+        "shortDescription": "Model content, build websites and draft content in CMS Orbit",
+        "longDescription": "Model content types and components in a CMS Orbit space with the CLI, build the website that renders them with the SDK, and find, read and draft content through the CMS Orbit MCP server. Every draft an agent makes waits for a person to review and publish it.",
+        "developerName": "Bifröst Orbit",
+        "category": "Developer Tools",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "websiteURL": "https://bifrostorbit.com/developers/agent-skills/",
+        "privacyPolicyURL": "https://bifrostorbit.com/legal/privacy/",
+        "termsOfServiceURL": "https://bifrostorbit.com/legal/terms/",
+        "supportURL": "https://github.com/bifrost-orbit/agent-plugin/issues",
+        "defaultPrompt": [
+          "Add a gear list component to my CMS Orbit space",
+          "Build a Next.js website for my CMS Orbit space",
+          "Draft a page about our Lofoten trips and send it for review"
+        ],
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

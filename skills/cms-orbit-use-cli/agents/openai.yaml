@@ -1,0 +1,2 @@
+interface:
+  short_description: 'Run the CMS Orbit CLI for schema, content and migrations'
